@@ -1,8 +1,7 @@
 # Northwind - Sistema de Gestión
 
 Aplicación de gestión de base de datos Northwind desarrollada con Python y Tkinter, implementando el patrón **MVC (Modelo-Vista-Controlador)**.
-
-## 📋 Contenido del Repositorio
+Contenido del Repositorio
 
 - ✅ **Proyecto completo con estructura de carpetas organizada** (Patrón MVC)
 - ✅ **Scripts de Python con todos los módulos** (Modelos, Vistas, Controladores)
@@ -71,13 +70,12 @@ tarea northwind/
 - Contienen la interfaz gráfica de usuario
 - Componentes Tkinter (Entry, Treeview, Buttons, etc.)
 - No contienen lógica de negocio, solo presentación
-
-### **Controladores** (`controllers/`)
+**Controladores** (`controllers/`)
 - Coordinan la interacción entre Modelos y Vistas
 - Contienen la lógica de negocio
 - Manejan eventos de la interfaz y actualizan modelos/vistas
 
-## 📦 Instalación
+Instalación
 
 ### 1. Requisitos Previos
 
@@ -126,7 +124,7 @@ Si no ejecutas el script SQL, la aplicación creará las tablas automáticamente
 
 Edita `utils/config.py` para configurar la conexión a la base de datos:
 
-```python
+``python
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
@@ -135,15 +133,13 @@ DB_CONFIG = {
 }
 ```
 
-## 🚀 Ejecución
-
-```bash
+Ejecución
+`bash
 python main.py
 ```
 
 La aplicación se iniciará y mostrará la interfaz gráfica con todas las pestañas de gestión.
-
-## Funcionalidades
+ Funcionalidades
 
 - ✅ Gestión de Clientes
 - ✅ Gestión de Categorías
@@ -152,7 +148,7 @@ La aplicación se iniciará y mostrará la interfaz gráfica con todas las pesta
 - ✅ Gestión de Detalles de Pedido
 - ✅ Gestión de Empleados (con fotos)
 
-## Características
+ Características
 
 - ✅ Interfaz moderna con colores suaves
 - ✅ Validación de datos
@@ -163,13 +159,10 @@ La aplicación se iniciará y mostrará la interfaz gráfica con todas las pesta
 - ✅ Patrón MVC bien estructurado
 - ✅ Código modular y mantenible
 
-## 📝 Notas
+Notas
 
 - El archivo `northwind_app.py` es el código original antes de la refactorización MVC
 - La aplicación crea automáticamente las tablas si no existen
 - Las imágenes de empleados se guardan en la carpeta `imagenes_empleados/`
 
-## 👥 Autor
-
-Proyecto desarrollado como tarea académica implementando el patrón MVC.
 
